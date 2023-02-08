@@ -5,7 +5,7 @@
 #### PROBLEM STATEMENT :
   Traditional recommendation task can be treated as sequential decision making problem. Recommender interacts with users to sequentially suggest set of items. The goal here is to maximize clients' satisfaction (i.e. reward) by using Reinforcement Learning to suggest more personalized and new contents to the user to develop interest on other products and thus increase the sales of the products.
   
-Reinforcement Learning can help recommendation at least in 2 ways.
+##### Reinforcement Learning can help recommendation at least in 2 ways.
   
   1. User’s preference on previous items will affect his choice on the next items. User tends to give a higher rating if he has consecutively received more satisfied items (and vice versa). So, it would be more reasonable to model the recommendation as a sequential decision making process.
 
