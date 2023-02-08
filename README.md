@@ -11,6 +11,16 @@
 
   2. It is important to use long-term planning in recommendations. For example, after reading the weather forecast, the user is not willing to read similar news. On the other hand, after watching funny videos or reading memes the user can constantly do the same.
   
+  
+  #### Movielens (1M) dataset results
+
+| Model                          | nDCG@10 | hit_rate@10 |
+| ------------------------------ | :-----: | ----------- |
+| **DDPG with OU noise**         |  0.280  | 0.502       |
+| DDPG                           |  0.254  | 0.454       |
+| Neural Collaborative Filtering |  0.238  | 0.430       |
+| Random (for comparison)        |  ~0.05  | ~0.1        |
+  
 - RL in NLP
 - RL in Supply Chain
 - RL in Retail
